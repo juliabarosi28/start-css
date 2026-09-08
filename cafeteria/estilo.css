@@ -1,0 +1,32 @@
+body {
+    background-color: #ffffff;
+}
+ul{ 
+    background-color: #F1E4CE; 
+    list-style-type: none;
+    display: flex;
+    gap: 200px;
+    height: 70px;
+    justify-content:center;
+    align-items: center;
+}
+#logo {
+    height: 108px;
+    border-radius: 50%;
+}
+li {
+    font-family: 'Fredoka', sans-serif;
+    font-weight: lighter;
+}
+main{
+    display: flex;
+    background-color: #fdfdfd;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+}
+section{
+    width: 50%;
+}
+footer{
+    text-align: center;
+}
