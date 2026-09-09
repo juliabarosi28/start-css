@@ -1,32 +1,90 @@
 body {
     background-color: #ffffff;
+    margin: 0;
+    font-family: Arial, sans-serif;
 }
-ul{ 
-    background-color: #F1E4CE; 
+
+ul {
+    background-color: #F1E4CE;
     list-style-type: none;
     display: flex;
-    gap: 200px;
+    gap: 100px;
     height: 70px;
-    justify-content:center;
+    justify-content: center;
     align-items: center;
+    margin: 0;
+    padding: 0;
 }
-#logo {
-    height: 108px;
-    border-radius: 50%;
-}
+
 li {
     font-family: 'Fredoka', sans-serif;
     font-weight: lighter;
 }
-main{
+
+#logo {
+    height: 108px;
+    border-radius: 50%;
+}
+
+.principal {
     display: flex;
-    background-color: #fdfdfd;
-    padding: 20px;
-    font-family: Arial, sans-serif;
+    width: 100%;
+    min-height: 700px;
 }
-section{
+
+.imagem-cafeteria {
     width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
 }
-footer{
+
+.imagem-cafeteria img {
+    width: 95%;
+    height: 80%;
+    object-fit: cover;
+    border-radius: 3%;
+}
+
+.info {
+    width: 50%;
+    padding: 30px;
+    box-sizing: border-box;
+    background-color: #fdfdfd;
+}
+
+.info h2 {
     text-align: center;
+    font-size: 32px;
+    margin-top: 0;
+}
+
+.cardapio {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+
+.categoria {
+    background-color: #F1E4CE;
+    padding: 15px;
+    border-radius: 15px;
+    box-sizing: border-box;
+}
+
+.categoria h3 {
+    text-align: center;
+    margin-top: 0;
+}
+
+.categoria p {
+    line-height: 1.6;
+    margin-bottom: 0;
+}
+
+footer {
+    text-align: center;
+    background-color: #F1E4CE;
+    padding: 5px;
 }
